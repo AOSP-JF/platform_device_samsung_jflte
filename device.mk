@@ -57,7 +57,8 @@ PRODUCT_COPY_FILES += \
 
 # System Properties
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp
+    persist.sys.usb.config=mtp \
+    media.stagefright.use-awesome=true
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
