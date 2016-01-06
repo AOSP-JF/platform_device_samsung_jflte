@@ -103,7 +103,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/jflte/include
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Logging
-# TARGET_USES_LOGD := false
+TARGET_USES_LOGD := false
 
 # NFC
 BOARD_NFC_HAL_SUFFIX := msm8960
@@ -131,7 +131,6 @@ TARGET_RECOVERY_FSTAB := device/samsung/jflte/rootdir/etc/fstab.qcom
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jflte/releasetools
-
 # RIL
 BOARD_RIL_CLASS := ../../../device/samsung/jflte/ril
 
