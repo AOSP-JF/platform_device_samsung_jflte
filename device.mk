@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
 # System Properties
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp \
-    media.stagefright.use-awesome=true
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -243,6 +242,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # media
 PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.media.use-awesome=true \
     qcom.hw.aac.encoder=true
 
 # radio
@@ -266,6 +266,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # media
 PRODUCT_PROPERTY_OVERRIDES += \
+    lpa.decode=true \
     mm.enable.smoothstreaming=true
 
 # mms
