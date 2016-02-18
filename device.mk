@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    SnapdragonCamera \
     camera.msm8960
 
 # CRDA
