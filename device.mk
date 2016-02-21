@@ -87,6 +87,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/prepatch/bcm4335_prepatch.hcd
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.msm8960
+
 # CRDA
 PRODUCT_PACKAGES += \
     crda \
