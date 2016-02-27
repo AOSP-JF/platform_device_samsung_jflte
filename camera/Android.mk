@@ -4,6 +4,8 @@ include $(CLEAR_VARS)
 LOCAL_C_INCLUDES += \
     system/media/camera/include
 
+LOCAL_CFLAGS += -Os
+
 LOCAL_SRC_FILES := \
     CameraWrapper.cpp
 
